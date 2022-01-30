@@ -29,7 +29,6 @@ def create_app():
 
                             MSEARCH_BACKEND='simple',
                             MSEARCH_PRIMARY_KEY='id',
-                            SQLALCHEMY_TRACK_MODIFICATIONS=True,
                             MSEARCH_ENABLE=True,
                             SWAGGER={
         'title': "Techy Teachers Api",
